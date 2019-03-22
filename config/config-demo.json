@@ -1,5 +1,7 @@
 {
   "webhook-test_master": {
+    "secret": "GitHub_Webhook_secret",
+    "command": "/bin/bash ./deploy.sh",
     "cwd": "/home/jason/p/testapi/",
     "env": {
       "DEBUG": "s:*"
