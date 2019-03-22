@@ -1,3 +1,5 @@
+[中文版说明](./README_cn.md)
+
 ## what is this?
 
 Web service responses to GitHub Webhook.
