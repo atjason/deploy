@@ -1,0 +1,25 @@
+{
+  "name": "seoapi",
+  "version": "1.0.0",
+  "description": "SEO API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^4.1.0",
+    "koa": "^2.5.3",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "md5": "^2.2.1",
+    "nodemailer": "^5.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
