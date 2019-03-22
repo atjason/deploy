@@ -14,47 +14,6 @@
         "DEBUG_COLORS": "true",
         "NODE_ENV": "dev",
       },
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Test",
-      "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
-      "args": [
-        "${workspaceFolder}/test"
-      ],
-      "env": {
-        "DEBUG": "s:*",
-        "DEBUG_COLORS": "true",
-      },
-      "internalConsoleOptions": "openOnSessionStart"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "T_Special",
-      "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
-      "args": [
-        // "${workspaceFolder}/test/utils/utils.js"
-        "${workspaceFolder}/test/crawler/baidu-mobile.js"
-        // "${workspaceFolder}/test/crawler/baidu-pc.js"
-        // "${workspaceFolder}/test/crawler/baidu-helper.js"
-      ],
-      "env": {
-        "DEBUG": "s:*",
-        "DEBUG_COLORS": "true",
-      },
-      "internalConsoleOptions": "openOnSessionStart"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "helper",
-      "program": "${workspaceFolder}/helper/baidu-ip-pool/test.js",
-      "env": {
-        "DEBUG": "s:*",
-        "DEBUG_COLORS": "true",
-      },
     }
   ]
 }
