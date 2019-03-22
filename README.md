@@ -1,10 +1,10 @@
 [中文版说明](./README_cn.md)
 
-## what is this?
+## What's This?
 
 Web service responses to GitHub Webhook.
 
-## Prerequisites
+## Preconditions
 
 This is not a Hello Word teaching example, but an actual project that I am using myself. Suppose you already know the following techniques or meet their conditions:
 
@@ -16,13 +16,13 @@ This is not a Hello Word teaching example, but an actual project that I am using
 - Know about Webhook
 - Know about SMTP
 
-## The main function
+## Features
 
 - After run `node lib/index.js`, a service that responds to GitHub Webhook is provided on port 3030.
 - Internally call the actual working shell script (you need to write it yourself) via `exec`
 - Send email for the result of script.
 
-## Main configuration
+## Configuration
 
 Both are located in the `config` directory, refer to `*_demo.json`, add a version without `_demo`
 
@@ -60,7 +60,7 @@ Currently, the SMTP configuration information is mainly stored for sending notif
 }
 ```
 
-## Trivial
+## Tips
 
 For GitHub Webhook, remember to generate a `secret` and select the `json` format.
 
