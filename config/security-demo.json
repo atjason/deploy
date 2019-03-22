@@ -2,8 +2,9 @@
   "mailConfig": {
     "host": "smtpdm.aliyun.com",
     "port": "465",
-    "user": "mail@jason.com",
-    "password": "",
-    "email": "EMAIL SEND TO"
+    "user": "user123",
+    "password": "password123",
+    "from": "from@gmail.com",
+    "to": "to@gmail.com"
   }  
 }
