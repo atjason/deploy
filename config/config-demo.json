@@ -1,1 +1,9 @@
-[]
+{
+  "atjason/webhook-test_refs/heads/master": {
+    "cwd": "/home/jason/p/testapi/",
+    "env": {
+      "DEBUG": "s:*"
+    },
+    "shell": "/bin/bash"
+  }
+}

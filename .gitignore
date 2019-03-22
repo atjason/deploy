@@ -1,5 +1,5 @@
 node_modules
 package-lock.json
-mail_config.json
+config.json
 security.json
 tmp
