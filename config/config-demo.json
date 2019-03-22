@@ -1,5 +1,5 @@
 {
-  "atjason/webhook-test_refs/heads/master": {
+  "webhook-test_master": {
     "cwd": "/home/jason/p/testapi/",
     "env": {
       "DEBUG": "s:*"
